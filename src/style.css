@@ -1,5 +1,5 @@
 body {
-    background: #674bb1;
+    background: var(--cor-background);
     background-image: url(./images/bg-desktop.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,15 +30,14 @@ header {
 .conteudo-principal .text-container {
     width: 430px;
     height: 320px;
-
 }
 
 .conteudo-principal .text-container .register-button {
     padding: 18px 90px;
     border-radius: 60px;
     border-style: none;
-    box-shadow: 8px 8px 8px #33235fae;
-    color: #e882e8;
+    color: var(--cor-texto-botao);
+    box-shadow: 8px 8px 8px var(--cor-sombra-botao);
     margin: 10px 0;
 }
 
@@ -51,7 +50,6 @@ header {
     width: 38px;
     margin: 0 8px;
     filter: invert(1);
-
 }
 
 footer {
