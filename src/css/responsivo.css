@@ -36,7 +36,7 @@
 
 @media screen and (max-width: 966px) {
     body {
-        background-image: url(./images/bg-mobile.svg);
+        background-image: url(../images/bg-mobile.svg);
     }
 
     header {
@@ -58,8 +58,8 @@
 
     #redes-sociais {
         text-align: center;
-        padding-bottom: 2rem;
-        padding-right: 0;
+        margin-bottom: 2rem;
+        margin-right: 0px;
     }
 
     footer p {
